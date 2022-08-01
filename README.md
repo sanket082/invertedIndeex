@@ -39,4 +39,5 @@ If the String is not empty we split the data according to aforementioned delimit
 ● For querying data we are provided with a search query, we lookup this query term in the termIDS map and find corresponding term ID. We then look at the termID in the lexicon map and find the address of posting information in the inverted index file. We read the data (how much according to frequencyGraph), split it according to the delimiters set and get the first 10 results. Since these postings were sorted during time of insertion we don't have to sort it. Just take the top 10 results, query DocID in the MongoDB database to find the data stored and use location data to highlight the query where we found it.
 
  Search term “there” being encolde by ←** **---->
- 
+  
+  
