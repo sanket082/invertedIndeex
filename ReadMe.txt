@@ -1,0 +1,1 @@
+Web.java creates an inverted index and Search query is used for query execution
