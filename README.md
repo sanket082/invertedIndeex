@@ -1,5 +1,9 @@
 # invertedIndex
 
+Data source:  https://msmarco.blob.core.windows.net/msmarcoranking/msmarco-docs.tsv.gz
+
+
+
  Assignment #2
 Inverted Index : ​ Inverted index is a mapping from content(words in this case) to their location in document. The purpose of this is to provide rapid full word searches at the cost of higher processing time at the time word is entered in the inverted index.
 Process:
